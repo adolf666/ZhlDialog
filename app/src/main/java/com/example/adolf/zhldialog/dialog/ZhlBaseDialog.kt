@@ -59,7 +59,7 @@ abstract class ZhlBaseDialog :DialogFragment(){
         initDialogParams()
     }
 
-    fun initDialogParams(){
+    private fun initDialogParams(){
         isCancelable = mCancelOutside
         val window :Window = dialog.window
         val lp  :WindowManager.LayoutParams = window.attributes
